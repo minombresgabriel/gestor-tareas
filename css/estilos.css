@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 80%;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+
+}
+
+a:hover {
+    text-decoration: underline;
+    text-decoration: none;
+
+}
+
+form {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    width: 50%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+form input, form textarea, form select, form button {
+    resize: none; 
+
+    width: 90%; 
+    padding: 10px;
+    margin: 10px auto; 
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    display: block; 
+    text-align: left; 
+}
+
+form button {
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    text-align: center; 
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+table td {
+    white-space: nowrap; 
+    overflow: hidden;    
+    text-overflow: ellipsis; 
+    max-width: 200px;    
+}
